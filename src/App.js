@@ -34,7 +34,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>pick 'Ua' genre</h1>
+      <h1> 🎧 pick 'Ua' genre</h1>
+      <p>Hit the genre and we show the best !</p>
       <div>
         {Object.keys(genreDb).map((genre, index) => (
           <button key={index} onClick={() => genrePicker(genre)}>
