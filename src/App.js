@@ -46,16 +46,14 @@ export default function App() {
       <div>
         <ul style={{ paddingInlineStart: 0 }}>
           {genreDb[selectedGenre].map((song, index) => (
-            <li
-              key={index}
-              style={{
-                listStyle: "none",
-                textAlign: "left"
-              }}
-            >
+            <li key={index}>
               {" "}
-              <div>{song.name}</div>
-              <div>{song.artist}</div>
+              <div>
+                {song.name}
+                <div>
+                  <small>{song.artist}</small>
+                </div>
+              </div>
             </li>
           ))}
         </ul>
