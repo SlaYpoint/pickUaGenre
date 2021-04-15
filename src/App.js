@@ -36,16 +36,18 @@ export default function App() {
     <div className="App">
       <h1>pick 'Ua' genre</h1>
       <div>
-        {Object.keys(genreDb).map((genre) => (
-          <button onClick={() => genrePicker(genre)}>{genre}</button>
+        {Object.keys(genreDb).map((genre, index) => (
+          <button key={index} onClick={() => genrePicker(genre)}>
+            {genre}
+          </button>
         ))}
       </div>
 
       <div>
         <ul style={{ paddingInlineStart: 0 }}>
-          {genreDb[selectedGenre].map((song) => (
+          {genreDb[selectedGenre].map((song, index) => (
             <li
-              key={song}
+              key={index}
               style={{
                 listStyle: "none",
                 textAlign: "left"
