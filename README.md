@@ -1,6 +1,10 @@
-<!-- <h1 align="center"> pickUaGenre </h1>
+<h1 align="center"> pickUaGenre </h1>
 
 <p align="center">
-    Are you a cashier ? Finding it hard to manage change returns when customers line up 😓 ? <br/>We're here to help you automate the process now 🤝!
-</p> -->
+    You have listened to a few songs and now want to explore more in the genre ? <br/>Well then just get the best recommendations under some of your fav genres !
+</p>
 
+### Stack
+
+1. React JS
+2. CSS
