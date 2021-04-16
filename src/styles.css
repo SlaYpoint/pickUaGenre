@@ -21,11 +21,11 @@ body {
 
 .App {
   background: var(--bg-color-secondary);
-  width: 40rem;
+  max-width: 40rem;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   padding: 0.5rem;
-  border-radius: 45px;
+  border-radius: 50px;
   color: white;
 }
 
@@ -38,7 +38,7 @@ button {
   display: inline-block;
   background: var(--primary);
   margin: 0.5rem 0.5rem;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   border: 2px solid #047857;
   border-radius: 0.5rem;
   font-size: medium;
@@ -49,12 +49,10 @@ button {
 
 li {
   list-style: none;
-  /* background: var(--bg-color-primary);
-   */
   border: 1px solid var(--bg-color-primary);
   padding: 2rem;
-  margin: 1.5rem 0.5rem;
-  width: 60%;
+  margin: 1.5rem 1rem;
+  width: 80%;
   border-radius: 1.5rem;
   text-align: left;
   font-size: 1.2rem;
