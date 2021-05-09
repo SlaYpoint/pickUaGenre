@@ -14,6 +14,6 @@
 1. React JS
 2. CSS
 
-### Disclaimer
+### Note
 
 This was my starter app while trying to learn React, the recommendation are based on a very small database of genres.
