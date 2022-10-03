@@ -52,7 +52,7 @@ export default function App() {
               <div>
                 {song.name}
                 <div>
-                  <small>{song.artist}</small>
+                  <small>by {song.artist}</small>
                 </div>
               </div>
             </li>
